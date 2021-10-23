@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/UBAYA/Advanced Native Mobile Programming - Semester 5/Week 8 - Room/160419009_ToDoApp/app/src/main/res/layout/activity_main.xml" value="0.18333333333333332" />
+        <entry key="..\:/UBAYA/Advanced Native Mobile Programming - Semester 5/Week 8 - Room/160419009_ToDoApp/app/src/main/res/layout/fragment_create_to_do.xml" value="0.264" />
+        <entry key="..\:/UBAYA/Advanced Native Mobile Programming - Semester 5/Week 8 - Room/160419009_ToDoApp/app/src/main/res/layout/fragment_to_do_list.xml" value="0.22241529105125976" />
+        <entry key="..\:/UBAYA/Advanced Native Mobile Programming - Semester 5/Week 8 - Room/160419009_ToDoApp/app/src/main/res/layout/todo_item_layout.xml" value="0.2" />
+        <entry key="..\:/UBAYA/Advanced Native Mobile Programming - Semester 5/Week 9 - Room Part 2/160419009_ToDoApp/app/src/main/res/layout/fragment_create_to_do.xml" value="0.31640625" />
+        <entry key="..\:/UBAYA/Advanced Native Mobile Programming - Semester 5/Week 9 - Room Part 2/160419009_ToDoApp/app/src/main/res/layout/todo_item_layout.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
