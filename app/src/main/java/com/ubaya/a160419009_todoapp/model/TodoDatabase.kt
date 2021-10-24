@@ -5,8 +5,9 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.ubaya.a160419009_todoapp.Util.MIGRATION_1_2
+import com.ubaya.a160419009_todoapp.Util.MIGRATION_2_3
 
-@Database(entities = arrayOf(Todo::class),version = 2)
+@Database(entities = arrayOf(Todo::class),version = 3)
 abstract class TodoDatabase:RoomDatabase() {
     abstract fun todoDao():TodoDao
 
@@ -21,6 +22,7 @@ abstract class TodoDatabase:RoomDatabase() {
             "tododb"
         )
             .addMigrations(MIGRATION_1_2)
+            .addMigrations(MIGRATION_2_3)
             .build()
 
         //fungsi yang terpanggil otomatis jika terpanggil abstract class room database

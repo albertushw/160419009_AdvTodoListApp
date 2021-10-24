@@ -1,5 +1,6 @@
 package com.ubaya.a160419009_todoapp.view
 
+import android.opengl.Visibility
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -53,7 +54,11 @@ class ToDoListFragment : Fragment() {
         viewModel.todoLD.observe(viewLifecycleOwner, Observer {
             todoListAdapter.updateTodoList(it)
             with(txtEmpty){
-                if(it.isEmpty()) View.VISIBLE else View.GONE
+                if(it.isEmpty()){
+                    visibility = View.VISIBLE
+                } else {
+                    visibility = View.GONE
+                }
             }
 
         })
