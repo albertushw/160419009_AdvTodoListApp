@@ -9,7 +9,7 @@ import com.ubaya.a160419009_todoapp.R
 import com.ubaya.a160419009_todoapp.model.Todo
 import kotlinx.android.synthetic.main.todo_item_layout.view.*
 
-class TodoListAdapter(val todoList: ArrayList<Todo>, val adapterOnClick:(Any)->Unit):RecyclerView.Adapter<TodoListAdapter.TodoListViewHolder>() {
+class TodoListAdapter(val todoList: ArrayList<Todo>, val adapterOnClick:(Int,Int)->Unit):RecyclerView.Adapter<TodoListAdapter.TodoListViewHolder>() {
     class TodoListViewHolder(var view: View):RecyclerView.ViewHolder(view)
 
     fun updateTodoList(newTodoList:List<Todo>){
@@ -34,8 +34,9 @@ class TodoListAdapter(val todoList: ArrayList<Todo>, val adapterOnClick:(Any)->U
 
         holder.view.checkTask.setOnCheckedChangeListener { compoundButton, isChecked ->
             if(isChecked) {
-                adapterOnClick(todoList[position])
-
+                adapterOnClick( 1,todoList[position].uuid)
+            }else{
+                adapterOnClick( 0,todoList[position].uuid)
             }
         }
     }
