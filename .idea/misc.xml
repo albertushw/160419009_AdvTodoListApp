@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/UBAYA/Advanced Native Mobile Programming - Semester 5/Week 10 - Data Binding/160419009_ToDoApp/app/src/main/res/layout/fragment_create_to_do.xml" value="0.16576086956521738" />
+        <entry key="..\:/UBAYA/Advanced Native Mobile Programming - Semester 5/Week 10 - Data Binding/160419009_ToDoApp/app/src/main/res/layout/fragment_edit_to_do.xml" value="0.16576086956521738" />
+        <entry key="..\:/UBAYA/Advanced Native Mobile Programming - Semester 5/Week 10 - Data Binding/160419009_ToDoApp/app/src/main/res/layout/todo_item_layout.xml" value="0.2" />
         <entry key="..\:/UBAYA/Advanced Native Mobile Programming - Semester 5/Week 8 - Room/160419009_ToDoApp/app/src/main/res/layout/activity_main.xml" value="0.18333333333333332" />
         <entry key="..\:/UBAYA/Advanced Native Mobile Programming - Semester 5/Week 8 - Room/160419009_ToDoApp/app/src/main/res/layout/fragment_create_to_do.xml" value="0.264" />
         <entry key="..\:/UBAYA/Advanced Native Mobile Programming - Semester 5/Week 8 - Room/160419009_ToDoApp/app/src/main/res/layout/fragment_to_do_list.xml" value="0.22241529105125976" />
