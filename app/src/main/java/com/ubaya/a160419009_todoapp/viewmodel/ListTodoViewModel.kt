@@ -32,10 +32,10 @@ class ListTodoViewModel(application: Application):AndroidViewModel(application),
         }
     }
 
-    fun updateIsDone(is_done:Int, uuid:Int){
+    fun updateIsDone(todo: Todo){
         launch {
             val db = buildDB(getApplication())
-            db.todoDao().updateIsDone(is_done, uuid)
+            db.todoDao().updateIsDone(todo.uuid)
             todoLD.value = db.todoDao().selectAllIsDone()
 
         }

@@ -22,8 +22,8 @@ class ToDoListFragment : Fragment() {
     private var todoListAdapter:TodoListAdapter = TodoListAdapter(arrayListOf(),
         {item -> doClick(item)})
 
-    fun doClick(uuid:Int){
-        viewModel.updateIsDone(uuid)
+    fun doClick(item:Any){
+        viewModel.updateIsDone(item as Todo)
     }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
